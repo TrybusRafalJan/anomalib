@@ -1,10 +1,10 @@
 dataset:
   name: pcbs
   format: folder
-  path: ./my-dataset/GAN_cracks_100/GAN_cracks100
-  normal_dir: /section1/train/good # name of the folder containing normal images.
-  abnormal_dir: /section1/test/bad # name of the folder containing abnormal images.
-  normal_test_dir: /section1/test/good # name of the folder containing normal test images.
+  path: ./my-dataset/GAN_cracks_100/GAN_cracks_100
+  normal_dir: section1/train/good # name of the folder containing normal images.
+  abnormal_dir: section1/test/bad # name of the folder containing abnormal images.
+  normal_test_dir: section1/test/good # name of the folder containing normal test images.
   task: classification # classification or segmentation
   mask: 
   extensions: null
